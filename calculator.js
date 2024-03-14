@@ -2,6 +2,7 @@ let result = document.getElementById('result');
 
 function appendNumber(number) {
   result.value += number;
+console.log("Javascript");
 }
 
 function appendOperator(operator) {
